@@ -1,0 +1,13 @@
+#include <stdio.h>
+{
+    int a,b,sum,sub,mult,divi,mod;
+    scanf("%d %d",&a,&b);
+    sum=a+b;
+    sub=a-b;
+    mult=a*b;
+    divi=a*b;
+    mod=a%b;
+    printf("The addition of the given numbers is: %d\nThe difference between the two numbers is: %d\nThe multiple of the two given numbers is %d\nThe division of the two numbers is: %d\nThe modulus of the two given numbers is: %d\n",sum,sub,mult,divi,mod);
+
+    return 0;
+}
